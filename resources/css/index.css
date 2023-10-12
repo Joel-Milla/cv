@@ -1,0 +1,167 @@
+/* General style website */
+/* Best practices to dont be guessing size of the box*/
+* {
+    box-sizing: border-box; /* calculate better width/height. 
+    here width = padding + border + content.
+    If not, then total_width = width_margin + padding + content
+    This to better predict the data. */
+}
+
+body {
+    font-family: monospace, 'Comfortaa', sans-serif;
+    background: #eae0d5;
+}
+
+section {
+    padding: 20px;
+    border-radius: 5px;
+    color: #fbfcf8;
+}
+
+footer h6 {
+    margin: 20px;
+}
+/* General style website */
+
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 700px;
+    padding: 5% 0;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: url('https://images.unsplash.com/photo-1534076355207-1717511180ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-position: center center;
+}
+
+h1 {
+    width: 100%;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    font-size: 100px;
+    line-height: 60px;
+    color: #191970;
+    background-color: #0ff;
+}
+
+.personal_information {
+    max-width: 800px;
+    padding: 10px;
+    background-color: #fbfcf8;
+    color: #191970;
+}
+
+.change-opacity {
+    opacity: .5;
+}
+
+/* Customize the buttons */
+.personal_information button {
+    display: inline;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #191970;
+    border: 1px solid #000;
+    color: #fbfcf8;
+}
+
+.personal_information button:hover {
+    cursor: pointer;
+    background-color: #fbfcf8;
+    border: 1px solid #808080;
+    color: #191970;
+    transition: background-color .15s, border .15s, color .15s;
+}
+
+.personal_information button:active {
+    background-color: rgb(6, 94, 94);
+    color: #fff;
+    transition: background-color .15s, color .15s;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Customize the buttons */
+
+/* Header */
+
+
+/* Experience section */
+h2 {
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+/* Colors of each section */
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    word-spacing: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.education {
+    border: #151b54 solid 2px;
+    background-color: hsl(225, 90%, 48%);
+}
+
+.skills {
+    border: #32612d solid 2px;
+    background-color: hsl(120, 70%, 28%);
+}
+
+.experience {
+    border: #daa520 solid 2px;
+    background-color: rgb(244, 180, 0);
+}
+
+.projects {
+    border: #541e1b solid 2px;
+    background-color: hsl(5, 90%, 48%);
+}
+
+.languages-competitions {
+    border: #231709 solid 2px;
+    background-color: hsl(34, 84%, 27%);
+}
+
+/* Decore */
+ul {
+    list-style: georgian inside url('../images/rocket.png');
+}
+
+.experience ul {
+    list-style: georgian inside url('../images/google.png');
+}
+
+/* Google word */
+.blue {
+    color: hsl(225, 90%, 48%);
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+/* Google word */
+
+/* Colors of each section */
